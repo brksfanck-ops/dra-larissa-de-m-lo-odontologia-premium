@@ -2,5 +2,7 @@
   "name": "Dra. Larissa de Mélo | Odontologia Premium",
   "description": "Espaço exclusivo em Guarulhos dedicado à estética dental, facetas e ao planejamento digital do sorriso de alta performance.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

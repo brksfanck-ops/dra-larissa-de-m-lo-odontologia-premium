@@ -29,11 +29,11 @@ export const CLINICAL_CASES: CaseItem[] = [
   { id: 'caso-14', image: 'https://i.imgur.com/IfxttqO.png', title: 'Caso Clínico 14', description: 'Recuperação da vitalidade do sorriso' },
   { id: 'caso-15', image: 'https://i.imgur.com/c7RVdcL.png', title: 'Caso Clínico 15', description: 'Harmonia entre lábios, dentes e gengiva' },
   { id: 'caso-16', image: 'https://i.imgur.com/fbZtrEi.png', title: 'Caso Clínico 16', description: 'Autoestima renovada em cada detalhe' },
+  { id: 'caso-17', image: 'https://i.imgur.com/g1bJNmb.png', title: 'Caso Clínico 17', description: 'Harmonização facial e perfil' },
 ];
 
 export const LIFESTYLE_SLIDES: LifestyleItem[] = [
   { id: 'life-01', image: 'https://i.imgur.com/sQSHlyr.png', caption: 'Sorrisos confiantes e marcantes' },
-  { id: 'life-02', image: 'https://i.imgur.com/g1bJNmb.png', caption: 'Experiência única em atendimento odontológico' },
   { id: 'life-03', image: 'https://i.imgur.com/h2jznNt.png', caption: 'A sofisticação do cuidado personalizado' },
   { id: 'life-04', image: 'https://i.imgur.com/UfLbc73.png', caption: 'Resultados naturais que transformam vidas' },
 ];

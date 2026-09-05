@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/autoplay";
+
+:root {
+  --bg: #F9F8F6;
+  --accent: #B5A48B;
+  --accent-hover: #9E8C73;
+  --dark: #1A1A1A;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--dark);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  touch-action: manipulation;
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.glass-header {
+  background: rgba(249, 248, 246, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.btn-premium {
+  border: 1px solid var(--accent);
+  padding: 12px 24px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  min-height: 44px;
+  transition: all 0.35s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  touch-action: manipulation;
+}
+
+.btn-premium:hover {
+  background: var(--accent);
+  color: #ffffff !important;
+  box-shadow: 0 8px 20px -6px rgba(181, 164, 139, 0.45);
+}
+
+.swiper-pagination-bullet {
+  background: #B5A48B !important;
+  opacity: 0.35;
+  transition: all 0.3s ease;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 5px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #B5A48B !important;
+  opacity: 1 !important;
+  width: 24px !important;
+  border-radius: 4px !important;
+}
+
+/* Linear infinite marquee transition */
+.swiper-results .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
